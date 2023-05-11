@@ -1,0 +1,174 @@
+html, body {
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    top: 0px;
+}
+label{
+    font-weight:bold;
+}
+html{
+    background-size: cover;
+    background-image: url('../images/stone.png'); 
+    scroll-behavior: smooth;
+}
+.button {
+    background-color: #373232;
+    color: #887F7F;
+    border: none;
+    float:right;
+    font-family: Verdana;
+    padding: 17.6px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+.button:hover {
+    color: black;
+    background-color: #E4E4E4;
+}
+.greybutton {
+    color: black;
+    background-color: #E4E4E4;
+    border: none;
+    padding: 7px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    cursor: none;
+    
+}
+.greybutton:hover {
+    background-color: #373232;
+    color: white;
+}
+.greybar {
+    background-color:#E4E4E4; 
+    border: 2px solid #CFCBCB;
+    cursor: none;
+    
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    
+  }
+.border {
+    padding:0px 15px;
+    background-color: white;
+    border: 2px solid #CFCBCB;
+}
+.innerbody {
+    
+}
+.shoppingbutton {
+    color: blue;
+    background-color: #CFCBCB;
+    border-radius:2px;
+    border: 2px solid #CFCBCB;
+    padding: 7px 100px;
+    text-align: center;
+    font-weight:bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+.shoppingdiv{
+    padding:5px 15px;
+    background-color: white;
+    border: 2px solid #CFCBCB;
+    display: flex;
+    justify-content:center;
+}
+.formdiv{
+    padding:5px 15px;
+    background-color: white;
+    border: 2px solid #CFCBCB;
+    display: flex;
+    justify-content:left;
+}
+.vertical{
+    padding: 0px;
+    list-style:none;
+}
+li.button{
+    display:inline
+}
+header {			
+    background-color: #373232;
+    height: 55.5px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #373232;
+    color: #887F7F;
+    positon:relative;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+
+    height: 48px; /*32 + 16  padding plus font height*/
+}
+h1 {
+    font-size: 50px;
+    font-family: Verdana;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: Verdana;
+}
+p {
+    font-size: 20px;
+    
+}
+.horizontallist {
+    display:inline;
+}
+hr {
+    margin-top:-20px;
+}
+button.lastbuttons{
+    height:20px;
+    width:40px;
+    padding:0;
+}
+.first {
+    margin-right:100px;
+}
+.password {
+    margin-right:110px;
+}
+.address {
+    width:360px;
+}
+.state {
+    margin-left: 150px
+}
+.onethreethree {
+    margin-left: 133px
+}
+.continent {
+    margin-top:5px;
+}
+.zip {
+    width:50px
+}
+.stateinput {
+    width:35px
+}
+.ziplabel {
+    margin-left: 10px
+}
+.birthdateinput {
+    margin-bottom:5px
+}
